@@ -17,15 +17,18 @@
 	
 	<?php  
 
-	/*  Step 1 -Make a variable with some text as value
+	 // Step 1 -Make a variable with some text as value
+	 $password = "mysecretpassword";
+	 $salt = "iusesomecrazystrings22";
 
-		Step 2 - Use crypt() function to encrypt it
+	//	Step 2 - Use crypt() function to encrypt it
+	$result = crypt($password, $salt);
 
-		Step 3 - Assign the crypt result to a variable
+	//	Step 3 - Assign the crypt result to a variable
+	//	Step 4 - echo the variable
+	echo($result);
 
-		Step 4 - echo the variable
-
-	*/
+	
 	
 	?>
 

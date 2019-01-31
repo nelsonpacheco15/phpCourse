@@ -6,7 +6,7 @@ $username = $_POST['username'];
 $password = $_POST['password'];
     
     
-$connection = mysqli_connect('localhost', 'root', '', 'loginapp');    
+$connection = mysqli_connect('localhost', 'nelson', '1234', 'loginapp');    
     
     if($connection) {
     
